@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .page{
+    display: flex;
+    flex-direction: column;
+    background-color: #eaebed;
+    align-items: center;
+} */
+.navbar{
+    height: 10%;
+    display: flex;
+    background-color: #eaebed;
+    justify-content: space-between;
+    padding: 20px 90px 30px;
+    align-items: center;
+    font-size: 25px;
+}
+.navbar-text{
+    background-color: #eaebed;
+    justify-content: space-between;
+}
+.navbar-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar-icons i{
+    margin: 0 10px;
+}
+.Event{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("../img/DANCE.jpg");
+    background-size: cover;
+    padding: 100px 0;
+}
+.Event h1{
+    font-size: 60px;
+    margin-bottom: 150px;
+    font-weight: bold;
+}
+.Event p{
+    font-size: 35px;
+    margin-bottom: 100px;
+    color: #191919;
+}
+.Event button{
+    padding: 15px 35px;
+    color: whitesmoke;
+    background-color: #191919;
+    cursor: pointer;
+    border-radius: 5px;
+    border: navajowhite;
+}
+.Speakers-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 0;
+}
+.Speakers-text h1{
+    margin-bottom: 30px;
+    font-size: 56px;
+}
+.Speakers-text p{
+    width: 85%;
+    font-size: 20px;
+    line-height: 40px;
+    word-spacing: 1.3px;
+    letter-spacing: 1.1px;
+}
+.Speakers-cards-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px 40px;
+}
+
+.Speakers-cards img{
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.Speakers-cards h4{
+    font-size: 25px;
+    word-spacing: 6px;
+    margin-bottom: 15px;
+}
+
+.Speakers-cards h4{
+    font-size: 25px;
+    word-spacing: 6px;
+    margin-bottom: 15px;
+}
+
+.Speakers-cards p{
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.Speakers-cards span{
+    color: #302b63;
+    font-weight: 700;
+    font-size: 18px;
+}

@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    width: 100%;
+    background-color: #eaebed;
+    border: 1px solid black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+.navbar>a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    /* margin-left: 10px; */
+}
+.navbar>a>span{
+    margin-left: 10px;
+    font-size: 1.4em;
+}
+.navbar-linknbutton{
+    display: flex;
+    padding: 10px 0;
+}
+.navlink{
+    margin-right: 30px;
+}
+.navlink li{
+    border: 1px solid black;
+    padding: 5px;
+    list-style: none;
+    box-shadow: 2px 2px black;
+
+}
+.navlink a{
+    padding: 2px 40px;
+}
+.navbar-linknbutton button, .search-container button{
+    padding: 5px 15px;
+    color: #ffff;
+    background-color: black;
+    box-shadow: 2px 2px black;
+}
+.navbar-linknbutton ul{
+    display: flex;
+    align-items: center;
+}
+.navbar-linknbutton ul a{
+   text-decoration: none;
+   color: black;
+}
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.hero-content h1{
+    width: 700px;
+    font-size: 65px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.search-container input{    
+    padding: 9px 10px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.hero-content-icons-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 10px;
+}
+.hero-content-icons{
+    text-align: center;
+    margin: 0 40px;
+    font-size: 18px;
+}
+.Book{
+    display: flex;
+    background-color: white;
+    padding: 15px 70px;
+    border: 1px solid black;
+}
+.Book>form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Book>form label{
+    font-weight: 700;
+    font-size: 20px;
+}
+.Book>form label{
+    font-weight: 700;
+    font-size: 20px;
+}
+.Book>form input, .Book>form select{
+    width: 250px;
+    padding: 2px 10px;
+}
+.Book button{
+    color: white;
+    background-color: black;
+    padding: 3px 15px;
+    box-shadow: 2px 2px black;
+}
+.Choose{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #eaebed;
+    border: 1px solid black;
+}
+.choose-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+.food-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 30px;
+}
+.FoodCard{
+    margin: 10px 45px 10px;
+    position: relative;
+    border: 1px solid black;
+}
+.FoodCard>img{
+    border: 1px solid black;
+}
+.FoodCard>h3{
+    position: absolute;
+    top: 0;
+    margin: 10px;
+    background-color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    width: 50px;
+}
+.container{
+    margin: 10px;
+}
+.container h4, .card-iconsntext{
+    padding: 5px;
+}
+.card-iconsntext{
+    display: flex;
+}
+.card-iconsntext p{
+    padding: 0px 40px 0px 0px;
+}
+.food-card-button-holder{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.container button{
+    padding: 2px 30px;
+    border: 2px solid black;
+    box-shadow: 3px 3px  black;
+}
+.ViewAll{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.ViewAll button{
+    padding: 2px 30px;
+    border: 2px solid black;
+    box-shadow: 3px 3px  black;
+    color: #ffff;
+    background-color: black;
+}
+.SpecialOffer{
+    display: flex;
+    background-color: #eaebed;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border: 1px solid black;
+}
+.SpecialOffer-content{
+    padding: 20px 50px; 
+}
+.SpecialOffer-content h5{
+    padding: 15px 0px;
+    margin-top: 30px;
+    font-size: 20px;
+} 
+.SpecialOffer-content h4{
+    margin-bottom: 30px;
+}
+.SpecialOffer-content h1{
+    margin-bottom: 30px;
+}
+.SpecialOffer-content p{
+    margin-bottom: 30px;
+}
+.SpecialOffer-content-button button{
+    padding: 2px 30px;
+    border: 2px solid black;
+    box-shadow: 3px 3px  black;
+    color: #ffff;
+    background-color: black;
+}
+.SpecialOffer-content img{
+    border: 1px solid black;
+}
+.WhyChooseUs{
+    display: flex;
+    background-color: #c4c5c7;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 40px 0px;
+    border: 1px solid black;
+}
+.WhyChooseUs-content{
+    display: flex;
+    justify-content: space-between;
+}
+.WhyChooseUs-content p{
+    display: flex;
+    padding: 0px 20px 0px 0px;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.CustomersReview{
+    display: flex;
+    background-color: #7d8491;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.CustomersReview-text{
+    padding: 20px 10px;
+}
+.CustomersReview-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.ReviewCard{
+    border: 1px solid black;
+    display: flex;
+    padding: 10px 30px 15px 20px;
+    margin: 0 80px;
+    background-color: whitesmoke;
+}
+.ReviewCard img{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.Review{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.Review p{
+    width: 200px;
+}
+.Review h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.LastSection{
+    display: flex;
+    background-color: #3b3c3f;
+    justify-content: space-between;
+    padding: 0 70px;
+    border: 1px solid black;
+}
+.LastSection ul h5{
+    font-size: 25px;
+    text-decoration: underline;
+    margin: 10px 0 30px;    
+}
+.LastSection ul li{
+    list-style-type: none;
+    margin-bottom: 10px;   
+}
+.LastSection ul a{
+    color: #191919;
+    text-decoration: none;   
+}
+.last-section-reach i{
+    margin-right: 10px;
+    font-size: 18px;
+}
+.last-section-social-links{
+    display: flex;
+    justify-content: space-between;
+}
+.last-section-social-links i{
+    font-size: 35px;
+}
+.footer{
+    display: flex;
+    background-color: #87a6e6;
+    justify-content: space-between  ;
+    padding: 20px 40px;
+    border: 1px solid black;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-text p{
+    margin-left: 6px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-icons i{
+    font-size: 25px;
+    margin: 0 10px;
+}
